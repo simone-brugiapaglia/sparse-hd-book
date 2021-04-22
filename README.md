@@ -2,7 +2,7 @@
 
 This is a repository associated with the book:
 
-Sparse Polynomial Approximation of High-Dimensional Functions
+*Sparse Polynomial Approximation of High-Dimensional Functions*
 by Ben Adcock, Simone Brugiapaglia and Clayton G. Webster
 
 to be published by SIAM in late 2021. It contains Matlab scripts to generate all figures in the book. 
