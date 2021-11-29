@@ -5,14 +5,14 @@
 % Part of the book "Sparse Polynomial Approximation of High-Dimensional
 % Functions", SIAM, 2021
 %
-% Description: generates the plots for Figures 6.1 and 6.2
+% Description: generates the plots for Figures 6.2 and 6.3
 
 clear all; close all; clc;
 addpath(genpath('../../utils'))
 
 %%% Loop over both figures and all subfigures %%%
 
-for fig_num = 1:2
+for fig_num = 2:3
     for row_num = 1:3
         for col_num = 1:2
             

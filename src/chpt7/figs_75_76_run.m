@@ -7,7 +7,6 @@
 %
 % Description: generates all data for Figures 7.5 and 7.6
 
-
 clear all; close all; clc;
 addpath ../../utils
 

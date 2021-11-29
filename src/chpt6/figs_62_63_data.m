@@ -1,17 +1,17 @@
 %--- Description ---%
 %
-% Filename: figs_61_62_data.m
+% Filename: figs_62_63_data.m
 % Authors: Ben Adcock, Simone Brugiapaglia and Clayton Webster
 % Part of the book "Sparse polynomial approximation of high-dimensional functions", SIAM
 %
-% Description: generates the data for Figures 6.1 and 6.2
+% Description: generates the data for Figures 6.2 and 6.3
 % 
 % Inputs: 
 % fig_num - figure number (either 1 or 2)
 % row_num - row number (either 1, 2 or 3)
 % col_num - row number (either 1 or 2)
 
-function figs_61_62_data(fig_num,row_num,col_num)
+function figs_62_63_data(fig_num,row_num,col_num)
 
 %%% Define main parameters %%%
 

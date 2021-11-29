@@ -133,7 +133,7 @@ for i = 1:num_m
                 end
                 
                 L2_err = norm(A_err_grid*c - b_err_grid)/norm(b_err_grid); % compute L^2_rho-norm error
-                Linf_err = norm(A_err_grid*c - b_err_grid,Inf)/norm(b_err_grid,Inf); % compute L^2_rho-norm error
+                Linf_err = norm(A_err_grid*c - b_err_grid,Inf)/norm(b_err_grid,Inf); % compute L^inf_rho-norm error
                 
                 if soltype == 1
                     L2_error_wqcbp_temp(j) = L2_err;

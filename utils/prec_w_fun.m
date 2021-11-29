@@ -20,5 +20,5 @@ function b = prec_w_fun(y)
 
 b = 1;
 for k = 1:d
-b = b*pi.*sqrt(1-y(:,k).^2);
+b = b*(pi/2).*sqrt(1-y(:,k).^2);
 end

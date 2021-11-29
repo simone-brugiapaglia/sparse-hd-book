@@ -40,6 +40,8 @@ hold off
 set_axis_param
 set_fonts
 
+ylim([-4,4])
+
 saveas(fig,['../../figs/chpt5/','fig_57_1'],'epsc');
 
 %%% Preconditioned Legendre polynomials %%%
@@ -54,15 +56,15 @@ for i = 1:length(I)
    hold on
 end
 
-plot(y_grid,2*ones(size(y_grid)),'LineWidth',lw*1.5,'Color',colors{2});
-plot(y_grid,-2*ones(size(y_grid)),'LineWidth',lw*1.5,'Color',colors{2});
-plot(y_grid,sqrt(pi)*ones(size(y_grid)),'--','LineWidth',lw*1.5,'Color',colors{2});
+plot(y_grid,sqrt(2)*ones(size(y_grid)),'LineWidth',lw*1.5,'Color',colors{2});
+plot(y_grid,-sqrt(2)*ones(size(y_grid)),'LineWidth',lw*1.5,'Color',colors{2});
+plot(y_grid,sqrt(pi/2)*ones(size(y_grid)),'--','LineWidth',lw*1.5,'Color',colors{2});
 
 hold off
 
 set_axis_param
 set_fonts
 
-ylim([-2.5,2.5])
+ylim([-4,4])
 
 saveas(fig,['../../figs/chpt5/','fig_57_2'],'epsc');

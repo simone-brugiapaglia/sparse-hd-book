@@ -1,3 +1,5 @@
+%--- Description ---%
+%
 % Filename: wsrlasso_cvx.m
 % Authors: Ben Adcock, Simone Brugiapaglia and Clayton Webster
 % Part of the book "Sparse Polynomial Approximation of High-Dimensional
